@@ -1,7 +1,7 @@
 :root {
-    --dark-yellow: rgb(155, 155, 32);
+    --dark-yellow: rgb(159, 159, 3);
     --dark-blue: rgb(23, 99, 122);
-
+    --yellow: rgb(244, 244, 112);
     --border-python: rgb(48, 105, 152); /* Azul claro para Python */
     --border-js: rgb(247, 223, 30); /* Amarillo para JavaScript */
     --border-cpp: rgb(0, 89, 156); /* Azul profundo para C++ */

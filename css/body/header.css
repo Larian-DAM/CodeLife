@@ -7,8 +7,8 @@ header {
     top: 0;
     z-index: 1000;
     height: 50px;
-    border-top: 10px ridge yellow;
-    border-bottom: 10px ridge yellow;
+    border-top: 10px ridge var(--yellow);
+    border-bottom: 10px ridge var(--yellow);
 }
 
 header > nav {
@@ -38,7 +38,7 @@ header > nav > ul {
 }
 
 .header-title:hover {
-    color: yellow;
+    color: var(--yellow);
 }
 
 header > nav > ul > li > a {
@@ -58,8 +58,8 @@ header > nav > ul > li > a {
 }
 
 .r-menu > :nth-child(2) > a:hover {
-    background-color: yellow;
-    border-color: yellow;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
     color: black;
 }
 
@@ -73,8 +73,8 @@ header > nav > ul > li > a {
 }
 
 .l-menu > li > a:hover {
-    color: yellow;
-    border-bottom: 2px solid yellow;
+    color: var(--yellow);
+    border-bottom: 2px solid var(--yellow);
 }
 
 .hamburger-menu {
