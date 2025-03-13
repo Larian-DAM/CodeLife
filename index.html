@@ -15,8 +15,11 @@
     <!-- body -->
     <link rel="stylesheet" href="./css/body/header.css">
     <link rel="stylesheet" href="./css/body/main.css">
+    <link rel="stylesheet" href="./css/body/footer.css">
     <!-- mediaqueries -->
     <link rel="stylesheet" href="./css/mediaqueries/header.css">
+    <link rel="stylesheet" href="./css/mediaqueries/main.css">
+    <link rel="stylesheet" href="./css/mediaqueries/footer.css">
     <!-- variables -->
     <link rel="stylesheet" href="./css/variables/colors.css">
 </head>
@@ -27,11 +30,10 @@
             <a class="header-title" href="#"><h1>&lt;/CODELIFE&gt;</h1></a>
             <ul class="l-menu">
                 <li><a href="#1">CURSOS</a></li>
-                <li><a href="">PROYECTOS</a></li>
-                <li><a href="">COMUNIDAD</a></li>
-                <li><a href="">OPINIONES</a></li>
-                <li><a href="">NOSOTROS</a></li>
-                <li><a href="">CONTÁCTANOS</a></li>
+                <li><a href="#2">PROYECTOS</a></li>
+                <li><a href="#3">OPINIONES</a></li>
+                <li><a href="#4">TARIFAS</a></li>
+                <li><a href="#5">CONTÁCTANOS</a></li>
             </ul>
             <ul class="r-menu">
                 <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
@@ -42,34 +44,34 @@
     <main>
         <section class="title">
             <article>
-                <a class="translate" href=""><i class="fa-solid fa-language"></i></a>
+                <a class="translate" href="./en_index.html"><i class="fa-solid fa-language"></i> es</a>
             </article>
             <article>
-                <span class="section-title">¡APRENDE,<br>CREA,<br><span class="yellow-text">PROGRESA!</span></span>
+                <span class="section-title">¡APRENDE,<br>CREA,<br><span class="theme-text">PROGRESA!</span></span>
+            </article>
+        </section>
+        <section class="price">
+            <article>
+                <span class="price-title">DESDE 15 € / mes</span>
             </article>
         </section>
         <section class="introduction">
             <article class="introduction-1">
                 <h2>TRANSFORMA TU CARRERA CON PROGRAMACIÓN</h2>
-                <p>Domina habilidades clave para ser un profesional en tecnología y enfrentar los desafíos más exigentes.</p>
             </article>
             <article class="introduction-2">
                 <h2>APRENDE A TU RITMO, EN CUALQUIER LUGAR</h2>
-                <p>Accede a cursos flexibles que se adaptan a tu horario y lugar de estudio, permitiéndote aprender de manera cómoda y eficiente.</p>
             </article>
             <article class="introduction-3">
                 <h2>CURSOS PRÁCTICOS Y ENFOCADOS</h2>
-                <p>Con proyectos reales y ejercicios prácticos, aprenderás desde el primer día.</p>
             </article>
             <article class="introduction-4">
-                <h2>PREPÁRATE PARA EL FUTURO</h2>
-                <p>Estarás listo para los retos tecnológicos que vienen, con conocimientos actualizados.</p>
+                <h2>RECIBE AYUDA PERSONALIZADA DE NUESTROS PROFESORES</h2>
             </article>
         </section>
-        
         <section id="1" class="courses">
             <article class="courses-1">
-                <span class="section-title">NUESTROS <span class="yellow-text">CURSOS</span></span>
+                <span class="section-title">NUESTROS <span class="theme-text">CURSOS</span></span>
             </article>
             <article class="courses-2">
                 <a href="#">
@@ -103,7 +105,235 @@
                 <a href=""><h2>VER TODOS LOS CURSOS</h2></a>
             </article>            
         </section>
+        <section id="2" class="projects">
+            <article class="projects-1">
+                <span class="section-title">OFRECEMOS DIVERSOS <span class="theme-text">PROYECTOS</span></span>
+            </article>
+            <article class="projects-2">
+                <a href="#">
+                    <h2>Calculadora de Operaciones Básicas (Python)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">1 - Fácil</span></p>
+                    <p>Crea una calculadora interactiva en Python que permita realizar operaciones básicas como suma, resta, multiplicación y división. Aprenderás estructuras de control y operaciones matemáticas.</p>
+                    <p><strong>Tecnologías:</strong> Python</p>
+                </a>
+            </article>
+            
+            <article class="projects-3">
+                <a href="#">
+                    <h2>Conversor de Unidades (Java)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">2 - Básico</span></p>
+                    <p>Desarrolla un programa en Java que permita convertir unidades como metros a kilómetros o Celsius a Fahrenheit. Aprenderás control de flujo y estructuras condicionales.</p>
+                    <p><strong>Tecnologías:</strong> Java</p>
+                </a>
+            </article>
+            
+            <article class="projects-4">
+                <a href="#">
+                    <h2>Blog Simple con CRUD (PHP + MySQL)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">3 - Intermedio</span></p>
+                    <p>Crea un blog donde los usuarios puedan crear, leer, actualizar y eliminar publicaciones usando PHP y MySQL. Aprenderás desarrollo web y operaciones CRUD.</p>
+                    <p><strong>Tecnologías:</strong> PHP, MySQL</p>
+                </a>
+            </article>
+            
+            <article class="projects-5">
+                <a href="#">
+                    <h2>Sistema de Gestión de Usuarios con Autenticación (Node.js + Express + MongoDB)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">4 - Avanzado</span></p>
+                    <p>Crea un sistema de gestión de usuarios con autenticación utilizando Node.js y MongoDB. Aprenderás a crear APIs RESTful y a manejar autenticación con JWT.</p>
+                    <p><strong>Tecnologías:</strong> Node.js, MongoDB</p>
+                </a>
+            </article>
+            <article class="projects-6">
+                <a href="#">
+                    <h2>Plataforma de Streaming de Video (Python + Flask + React + PostgreSQL)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">5 - Experto</span></p>
+                    <p>Desarrolla una plataforma de streaming donde los usuarios puedan ver, cargar videos y dejar comentarios. Aprenderás desarrollo full-stack, React y PostgreSQL.</p>
+                    <p><strong>Tecnologías:</strong> Python, React, PostgreSQL</p>
+                </a>
+            </article>
+            <article class="projects-7">
+                <a href="#">
+                    <h2>Red Social Completa (Node.js + React + MongoDB)</h2>
+                    <p><strong>Nivel de dificultad:</strong> <span class="level">5 - Experto</span></p>
+                    <p>Crea una red social donde los usuarios puedan registrarse, hacer publicaciones, seguir a otros y comentar. Aprende a trabajar con Node.js, React y MongoDB para desarrollar una app completa.</p>
+                    <p><strong>Tecnologías:</strong> Node.js, React, MongoDB</p>
+                </a>
+            </article>
+            <article class="projects-8">
+                <a href="#">
+                    <h2>DESCUBRE TODOS NUESTROS PROYECTOS DE APRENDIZAJE</h2>
+                </a>
+            </article>
+        </section>
+        <section id="3" class="opinions">
+            <article class="opinions-1">
+                <span class="section-title">LAS OPINIONES DE <span class="theme-text">NUESTROS ESTUDIANTES</span></span>
+            </article>
+            <article class="opinions-2">
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Sergio G.</h2>
+                </div>
+                <p>Estoy sorprendido con la ayuda que me han brindado los profesores. ¡Pronto podre crear mi propia web y vender mis libros!</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+            <article class="opinions-3">
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Alexandru M.</h2>
+                </div>
+                <p>Siempre he querido crear aplicaciones. ¡Estos cursos son muy útiles! Ya he aprendido mucho sobre interfaces.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+            <article class="opinions-4">
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Nicolás G.</h2>
+                </div>
+                <p>Con estos cursos he podido adquirir los conocimientos necesarios para poder desarrollar mis proyectos.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+            <article class="opinions-5">
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Delenys A.</h2>
+                </div>
+                <p>Gracias a estos cursos he podido adquirir muchos conocimientos sobre el desarrollo full-stack. Me está gustando mucho.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+        </section>
+        <section id="4" class="rates">
+            <article class="rates-1">
+                <span class="section-title">NUESTRAS <span class="theme-text">TARIFAS</span></span>
+            </article>
+            <article class="rates-2">
+                <h2>Plan Básico</h2>
+                <p><strong>Precio:</strong> $15/mes | $150/año</p>
+                <ul>
+                    <li>Acceso a cursos introductorios como HTML, CSS, Python básico y JavaScript básico.</li>
+                    <li>Certificado de finalización por cada curso.</li>
+                    <li>Soporte por email.</li>
+                    <li>Acceso a foros comunitarios.</li>
+                </ul>
+                <a class="subscribe" href="#">SUSCRIBIRSE</a>
+            </article>
+            <article class="rates-3">
+                <h2>Plan Intermedio</h2>
+                <p><strong>Precio:</strong> $30/mes | $300/año</p>
+                <ul>
+                    <li>Incluye todo lo del plan básico.</li>
+                    <li>Acceso a cursos avanzados como React, Node.js, SQL, APIs, C++ y Java.</li>
+                    <li>Proyectos prácticos con revisión.</li>
+                    <li>Soporte prioritario por email y chat.</li>
+                    <li>Webinars y clases en vivo mensuales.</li>
+                </ul>
+                <a class="subscribe" href="#">SUSCRIBIRSE</a>
+            </article>
+            <article class="rates-4">
+                <h2>Plan Pro</h2>
+                <p><strong>Precio:</strong> $50/mes | $500/año</p>
+                <ul>
+                    <li>Incluye todo lo del plan intermedio.</li>
+                    <li>Acceso a mentorías personalizadas con expertos.</li>
+                    <li>Desarrollo de proyectos reales con asesoría.</li>
+                    <li>Acceso a pruebas técnicas y simulacros de entrevistas.</li>
+                    <li>Networking con reclutadores y empresas.</li>
+                </ul>
+                <a class="subscribe" href="#">SUSCRIBIRSE</a>
+            </article>
+            <article class="rates-5">
+                <h2>Plan Empresarial</h2>
+                <p><strong>Precio:</strong> Desde $100/mes por equipo de 5 personas.</p>
+                <ul>
+                    <li>Incluye todo lo del plan Pro.</li>
+                    <li>Plataforma personalizada con reportes de progreso.</li>
+                    <li>Cursos adaptados a necesidades empresariales.</li>
+                    <li>Soporte técnico prioritario.</li>
+                </ul>
+                <a class="subscribe" href="#">SUSCRIBIRSE</a>
+            </article>
+        </section>
+        <section id="5" class="contact-us">
+            <article class="contact-us-1">
+                <span class="section-title">PONTE EN CONTACTO <span class="theme-text">CON NOSOTROS</span></span>
+            </article>
+            <article class="contact-us-2">
+                <h2>Contacto</h2>
+                <p><strong>Teléfono:</strong> <a href="tel:+34928123456">+34 928 123 456</a></p>
+                <p><strong>Email:</strong> <a href="mailto:service@codelife.com">service@codelife.com</a></p>
+                <p><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM </p>
+            </article>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <article class="us">
+            <h3>Quiénes Somos:</h3>
+            <p>
+                <strong>Especialistas en cursos online de programación y desarrollo tecnológico.</strong> Nuestro
+                objetivo es ayudarte a alcanzar tus metas profesionales ofreciéndote los mejores
+                <strong>cursos de programación</strong> del momento. ¿Te unes a la revolución tecnológica?
+            </p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <a href="#">Más sobre CodeLife</a>
+        </article>
+        <article class="footer-courses">
+            <h3>Cursos:</h3>
+            <ul>
+                <li><a href="#">CREA UNA CUENTA</a></li>
+                <li><a href="#">REQUISITOS DE ACCESO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+            </ul>
+        </article>
+        <article class="information">
+            <h3>Información:</h3>
+            <ul>
+                <li><a href="#">POLÍTICA DE COOKIES</a></li>
+                <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+                <li><a href="#">AVISO LEGAL</a></li>
+                <li><a href="#">FORMAS DE PAGO</a></li>
+            </ul>
+        </article>
+        <article class="copyright">
+            <h3>Derechos de Autor:</h3>
+            <p>
+                El contenido de este sitio está protegido por derechos de autor y ha sido desarrollado con fines educativos. Queda prohibida su reproducción sin autorización.
+            </p>
+            <p>
+                &copy; Larian - 1º DAM LND
+            </p>
+        </article>
+    </footer>
 </body>
 </html>

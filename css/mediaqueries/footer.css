@@ -1,0 +1,55 @@
+@media (max-width: 1560px) {
+    footer {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 100px 100px;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .us {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .footer-courses {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .information {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .copyright {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: 300px;
+        grid-template-rows: 100px 100px 100px 100px;
+    }
+
+    .us {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .footer-courses {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .information {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .copyright {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}
